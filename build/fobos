@@ -8,15 +8,15 @@ cflags = -c -O2 -std=f2008 -ffree-line-length-none
 lflags = -static-libgcc -static-libgfortran -static
 build_dir = .
 src = ../src/
-libs = -L ../lib/fabm/build -lfabm
-include = ../lib/fabm/build/modules/
+libs = -L ../lib/fabm/build -lfabm ../lib/csv_fortran/static/libcsv.a ../lib/json_fortran/static/libjson.a ../lib/forbear/static/libforbear.a
+include = ../lib/fabm/build/modules/ ../lib/csv_fortran/static/mod/ ../lib/json_fortran/static/mod/ ../lib/forbear/static/mod/
 colors = False
 quiet = False
 target = ../src/simstrat.f90
 output = simstrat
-dependon = ../lib/csv_fortran/fobos:release-gnu((direct))
-         ../lib/json_fortran/fobos:release-gnu((direct))
-         ../lib/forbear/fobos:static-gnu((direct))
+#dependon = ../lib/csv_fortran/fobos:release-gnu((direct))
+#         ../lib/json_fortran/fobos:release-gnu((direct))
+#         ../lib/forbear/fobos:static-gnu((direct))
 log = True
 
 # Dynamic library linking
