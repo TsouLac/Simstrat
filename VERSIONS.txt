@@ -1,5 +1,5 @@
-Built in Ubuntu 26.04.1 LTS (WSL2), Simstrat README option 2b
-GNU Fortran (Ubuntu 15.2.0-16ubuntu1) 15.2.0
+Built in Ubuntu 26.04.1 LTS (WSL2),
+GNU Fortran 15.2.0
 cmake version 4.2.3
 Python 3.14.4
    package fobis-py 3.17.0, installed using Python 3.14.4
