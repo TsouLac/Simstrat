@@ -1,0 +1,13 @@
+diff --git a/src/fish.F90 b/src/fish.F90
+index 21d2ac6..4932aaf 100644
+--- a/src/fish.F90
++++ b/src/fish.F90
+@@ -1126,7 +1126,7 @@ subroutine do_bottom(self,_ARGUMENTS_DO_BOTTOM_)
+    real(rk)                           :: bot_pel_conv
+    integer                            :: i_prey
+ 
+-   _FABM_HORIZONTAL_LOOP_BEGIN_  !!! BEGINNING OF MODEL CODE::
++   _HORIZONTAL_LOOP_BEGIN_  !!! BEGINNING OF MODEL CODE::
+    !%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%!
+    !  1. calculate bottom/pelagic convertion and apply bentivorous consumption rates                                !
+    !================================================================================================================!

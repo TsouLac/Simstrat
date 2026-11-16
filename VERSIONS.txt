@@ -1,0 +1,13 @@
+Built in Ubuntu 26.04.1 LTS (WSL2), Simstrat README option 2b
+GNU Fortran (Ubuntu 15.2.0-16ubuntu1) 15.2.0
+cmake version 4.2.3
+Python 3.14.4
+   package fobis-py 3.17.0, installed using Python 3.14.4
+    - FoBiS.py
+    - fobis
+git version 2.53.0
+Simstrat AED2 (master): e41c329 2026-09-02
+libaed2: a8e5067 2025-11-19
+Simstrat FABM (couple_with_fabm): ef543dd 2026-06-24
+FABM: f85de87a 2026-05-28
+WET: 5aad3a2 2026-01-15, plus wet_fish_F90_line1129.patch
